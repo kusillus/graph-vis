@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset='utf8'>
+	<meta name='viewport' content='width=device-width'>
+
+	<title>Svelte app</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css">
+	<link rel='stylesheet' href='global.css'>
+	<link rel='stylesheet' href='bundle.css'>
+</head>
+
+<body>
+	<div>
+		<div class="container-panel">
+			aqui ponemos la data de la mention
+			<button id="reset_data">
+				Reload data
+			</button>
+		</div>
+		<div id="visualization"></div>
+		<pre id="eventSpan"></pre>
+		<div class="info_node bg-light">
+			<div class="d-flex">
+				<div class="info_user">
+					<img class="user_img_profile" src="https://cdn.dribbble.com/users/452635/avatars/small/8d29318a6b80245f06cc4930d825a6d9.jpg?1534047161" alt="">
+					<div class="user_names">
+						<span class=""><strong>CSS Tricks</strong></span>
+						<span class="subtitle">@css-tricks</span>
+					</div>
+				</div>
+				<div class="reach-info">
+					<div class="text-center">
+						<i class="fas fa-signature"></i>
+						<span class="pr-2">1 000 000</span>
+					</div>
+					<div class="sentiment d-flex">
+						<div class="px-2 text-success">
+							<i class="far fa-smile"></i>
+							<span>80</span>%
+						</div>
+						<div class="px-2 text-warning">
+							<i class="far fa-meh"></i>
+							<span>0</span>%
+						</div>
+						<div class="px-2 text-danger">
+							<i class="far fa-angry"></i>
+							<span>20</span>%
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="node_post">
+				<span>
+					Aqui va el tweet
+				</span>
+			</div>
+		</div>
+	</div>
+	<script src='bundle.js'></script>
+</body>
+</html>

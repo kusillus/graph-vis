@@ -1,0 +1,86 @@
+{
+    "nodes": [
+        {
+            "id": 1,
+            "value": 2,
+            "label": "Lenovo",
+            "title": "Lenovo",
+            "group": "twitter",
+            "color": {
+                "background": "#008ae4",
+                "border": "#008ae4",
+                "highlight": {
+                "background": "#008ae4",
+                "border": "#008ae4"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "value": 17,
+            "label": "Lenovo",
+            "title": "Twitter - Positivo",
+            "group": "facebook",
+            "color": {
+                "background": "#38c02a",
+                "border": "#38c02a",
+                "highlight": {
+                "background": "#38c02a",
+                "border": "#38c02a"
+                }
+            }
+        },
+        {
+            "id": 3,
+            "value": 8,
+            "label": "HP",
+            "title": "Twitter - Positivo",
+            "group": "twitter",
+            "color": {
+                "background": "#38c02a",
+                "border": "#38c02a",
+                "highlight": {
+                "background": "#38c02a",
+                "border": "#38c02a"
+                }
+            }
+        },
+        {
+            "id": 4,
+            "value": 20,
+            "label": "Samsung",
+            "title": "Facebook - Positivo",
+            "group": "facebook",
+            "color": {
+                "background": "#38c02a",
+                "border": "#38c02a",
+                "highlight": {
+                "background": "#38c02a",
+                "border": "#38c02a"
+                }
+            }
+        },
+        {
+            "id": 6,
+            "value": 16,
+            "label": "Xiaomi",
+            "title": "Facebook - Positivo",
+            "group": "facebook",
+            "color": {
+                "background": "#38c02a",
+                "border": "#38c02a",
+                "highlight": {
+                "background": "#38c02a",
+                "border": "#38c02a"
+                }
+            }
+        }
+    ],
+    "edges": [
+        {"from": 1, "to": 2},
+        {"from": 1, "to": 5},
+        {"from": 1, "to": 4},
+        {"from": 1, "to": 3},
+        {"from": 1, "to": 6}
+    ]
+}
