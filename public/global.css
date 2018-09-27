@@ -18,12 +18,14 @@ body {
   background-color: white;
 }
 .info_node{
+  max-width: 390px;
   background: red;
   position: absolute;
   top: 0;
   left: 0;
   padding: 9px;
   border-radius: 4px;
+  z-index: 99;
 }
 .info_user{
   display: flex;
@@ -35,15 +37,16 @@ body {
   padding-left: 10px;
 }
 .subtitle{
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 200;
+  line-height: 1;
 }
 .user_img_profile{
   border-radius: 50%;
   width: 60px;
 }
 .reach-info{
-  border-left: solid 2px gray;
+  border-left: solid 2px #d5d5d5;
   padding-left: 3px;
   margin-left: 9px;
   display: flex;
@@ -51,10 +54,10 @@ body {
   justify-content: center;
 }
 .sentiment{
-  font-size: 14px;
+  font-size: 12px;
 }
 .node_post{
-  background: orange;
+  background: #dadada;
   border-radius: 4px;
   padding: 5px;
   font-size: 12px;
@@ -68,5 +71,20 @@ body {
   left: 18px;
   border-style: solid;
   border-width: 0px 10px 10px 10px;
-  border-color: transparent transparent orange transparent;
+  border-color: transparent transparent #dadada transparent;
+}
+.post_content{
+  font-size: 12px;
+  line-height: 1;
+  text-align: justify;
+}
+.post_extrainfo{
+  font-size: 11px;
+  text-align: right;
+}
+.fa-twitter-square{
+  color: #1dcaff;
+}
+.fa-facebook-square{
+  color: #3B5998;
 }

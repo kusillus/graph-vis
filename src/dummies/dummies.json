@@ -61,7 +61,7 @@
             }
         },
         {
-            "id": 6,
+            "id": 5,
             "value": 2,
             "label": "Xiaomi",
             "title": "Facebook - Positivo",
@@ -79,7 +79,6 @@
     "edges": [
         {"from": 2, "to": 1},
         {"from": 2, "to": 5},
-        {"from": 1, "to": 4},
         {"from": 1, "to": 3}
     ]
 }
