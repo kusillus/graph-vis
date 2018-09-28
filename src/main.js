@@ -1,7 +1,9 @@
 import vis from 'vis';
 const node = document.getElementById('visualization');
-const data = require('./dummies/dummies.json');
-const data1 = require('./dummies/dummies_1.json');
+const network_data = require('./dummies/network_1.json');
+// const data = require('./dummies/dummies.json'); // data de los nodos
+// const data1 = require('./dummies/dummies_1.json'); // data de los nodos
+const timeline_data = require('./dummies/timeline.json'); //Data del timeline
 const post_data = require('./dummies/post_data.json');
 var infoNode = `<div class="info_node bg-light" style="top:{axis_x}px;left:{axis_y}px;">
 	<div class="d-flex justify-content-between">
@@ -69,7 +71,9 @@ var network = '',
 	options = {},
 	nodes = {},
 	edges = {},
-	count = 0;
+	count = 0,
+	timeline_options = {},
+	timeline = '';
 
 /*
 	Negativo: #d01622,
@@ -77,11 +81,51 @@ var network = '',
 	Positivo: #38c02a
 */
 
-function startNetwork () {
+initialLoad();
+
+function initialLoad() {
+	var timeline_tag = document.getElementById('timeline');
+	timeline_options = {
+		zoomMax: 100000000000,
+		zoomMin: 600000,
+		showMinorLabels: true,
+		showTooltips: true,
+		stack: false
+	};
+	timeline = new vis.Timeline(timeline_tag, timeline_data, timeline_options)
+
+	// Para una carga inicial vamos a hacer que cargue la network tomando el ultimo elemento de la data data que me mandan
+	loadNetworkById(true, timeline_data[timeline_data.length - 1].id)
+
+	timeline.on('click', function (properties) {
+		cleanView();
+		if(properties.item) loadNetworkById(false, properties.item)
+	});
+}
+
+// Cargamos o recargamos la network dependiendo del timeline, para una carga inicial le enviamos un parametro booleano para cargar o resetear los nodos.
+function loadNetworkById(bool, id) {
+	// Simulamos el consumo del servicio, obtenemos la data de la network.
+	var response = catchFakeData(id)
+	bool ? startNetwork(response):resetAllNodes(response)
+}
+
+// Obtenemos la "data", aqui deberiamos tener nuestro servicio.
+function catchFakeData(id) {
+	var catchId = ''; 
+	Object.keys(network_data).forEach(function(x) {
+		let item = network_data[x].id
+		if(item == id) catchId = x
+	})
+	return network_data[catchId]
+}
+
+// Funcion para dibujar la network con los nodos y ejes
+function startNetwork (data) {
 	options = {
-		interaction: {
-			tooltipDelay: 200
-		},
+		physics:{
+			enabled: true
+		},	
 		nodes: {
 			shape: 'dot',
 			borderWidth: 1,
@@ -109,31 +153,22 @@ function startNetwork () {
 	network = new vis.Network(node, {nodes, edges}, options);
 }
 
-function resetAllNodes() {
+// Reseteamos los nodos y agregamos los nuevos
+function resetAllNodes(data) {
 	nodes.clear();
 	edges.clear();
-	if( count <= 0 ){
-		nodes.add(data1.nodes);
-		edges.add(data1.edges);	
-		count = 1;
-	} else {
-		nodes.add(data.nodes);
-		edges.add(data.edges);
-		count = 0;
-	}
+	nodes.add(data.nodes);
+	edges.add(data.edges);	
+	
 }
 
-document.getElementById('reset_data').addEventListener('click', () => {
-	cleanView();
-	resetAllNodes();
-})
-
-startNetwork();
+// Limpiamos la pantalla de popups
 function cleanView() {
 	var infoNode = document.getElementById('idPanel');
 	if(infoNode) infoNode.parentElement.removeChild(infoNode);
 }
 
+// Listener para evento click en los nodos de la network
 network.on("click", function (params) {
 	var id = params.nodes[0];
 	var axis = params.pointer.DOM;
@@ -142,6 +177,7 @@ network.on("click", function (params) {
 		var new_infoNode =  findDataNode(id, axis);
 		if(new_infoNode) {
 			var target = document.querySelector('#container_body');
+			// pintamos el popup en pantalla
 			var div = document.createElement('div');
 			div.setAttribute('id', 'idPanel');
 			div.innerHTML = new_infoNode;
@@ -150,6 +186,7 @@ network.on("click", function (params) {
 	}
 });
 
+// Calculamos que se pinte el popup en pantalla, dependiendo de su posicion para que no se salga de la pantalla
 function calculateAxis(total, axis) {
 	if(axis > (total/2)) {
 		return axis - 290;

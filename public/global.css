@@ -5,6 +5,10 @@ body {
   background-color: #0a1c34;
 }
 
+#container_body{
+  position: relative;
+}
+
 .container-panel{
     background-color:#041224;
     padding: 10px;
@@ -12,7 +16,7 @@ body {
     color: #FFFFFF;
 }
 #visualization{
-	height: 90vh;
+	height: 50vh;
 }
 #eventSpan{
   background-color: white;
@@ -87,4 +91,13 @@ body {
 }
 .fa-facebook-square{
   color: #3B5998;
+}
+
+
+/* Configuracion de lineas timeline */
+.vis-item.vis-line, .vis-item.vis-dot{
+  display: none;
+}
+.vis-item.vis-box {
+  border-radius: 50%;
 }

@@ -1,0 +1,212 @@
+[
+    {
+        "id": "1",
+        "nodes": [
+            {
+                "id": 1,
+                "value": 5,
+                "label": "ASUS",
+                "title": "ASUS",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": {
+                    "background": "#008ae4",
+                    "border": "#008ae4"
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "value": 9,
+                "label": "Lenovo",
+                "title": "Twitter - Positivo",
+                "group": "facebook",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 3,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            }
+        ],
+        "edges": [
+            {"from": 1, "to": 2},
+            {"from": 2, "to": 3}
+        ]
+    },
+    {
+        "id": "2",
+        "nodes": [
+            {
+                "id": 1,
+                "value": 4,
+                "label": "ASUS",
+                "title": "ASUS",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": {
+                    "background": "#008ae4",
+                    "border": "#008ae4"
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "value": 10,
+                "label": "Lenovo",
+                "title": "Twitter - Positivo",
+                "group": "facebook",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 3,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 4,
+                "value": 17,
+                "label": "MACRO",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            }
+        ],
+        "edges": [
+            {"from": 1, "to": 2},
+            {"from": 2, "to": 3},
+            {"from": 3, "to": 4}
+        ]
+    },
+    {
+        "id": "3",
+        "nodes": [
+            {
+                "id": 1,
+                "value": 28,
+                "label": "ASUS",
+                "title": "ASUS",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": {
+                    "background": "#008ae4",
+                    "border": "#008ae4"
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "value": 29,
+                "label": "Lenovo",
+                "title": "Twitter - Positivo",
+                "group": "facebook",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 3,
+                "value": 30,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 4,
+                "value": 33,
+                "label": "MACRO",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 5,
+                "value": 36,
+                "label": "CSS Tricks",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            }
+        ],
+        "edges": [
+            {"from": 1, "to": 2},
+            {"from": 2, "to": 3},
+            {"from": 3, "to": 4},
+            {"from": 4, "to": 5}
+        ]
+    }
+]
