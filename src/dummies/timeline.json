@@ -1,5 +1,5 @@
 [
-    {"id": 1, "start": "2018-07-16T19:20", "style":"color: red; background-color: pink;"},
+    {"id": 1, "start": "2018-07-16T19:20"},
     {"id": 2, "start": "2018-07-16T19:21"},
     {"id": 3, "start": "2018-07-16T19:22"}
 ]

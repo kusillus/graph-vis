@@ -73,7 +73,8 @@ var network = '',
 	edges = {},
 	count = 0,
 	timeline_options = {},
-	timeline = '';
+	timeline = '',
+	actual_node= 0;
 
 /*
 	Negativo: #d01622,
@@ -99,15 +100,51 @@ function initialLoad() {
 
 	timeline.on('click', function (properties) {
 		cleanView();
-		if(properties.item) loadNetworkById(false, properties.item)
+		if(properties.item){
+			evalNewTimelinePoint(properties.item);
+			
+		} 
 	});
 }
 
+// Evaluamos si el punto es mayor o menor al actual para agregar o quitar nodos
+function evalNewTimelinePoint(idTimeline){
+	if(parseInt(idTimeline) !== parseInt(actual_node)){
+		var nodesInScreen = handleActualNodesInScreen();
+		loadNetworkById(false, idTimeline, nodesInScreen);
+		// actualizamos el nodo actual
+		actual_node = idTimeline;
+	}
+}
+
+// Obtenemos los nodos que estan pintados en pantalla y devolvemos sus id's en un array
+function handleActualNodesInScreen(){
+	var nodosInCanvas = network.nodesHandler.body.nodes
+	var itemNodes = [];
+	Object.keys(nodosInCanvas).forEach(function(x){
+		if(parseInt(x) >= 0) {
+			itemNodes.push(x)
+		}
+	})
+	return itemNodes
+}
+
+
 // Cargamos o recargamos la network dependiendo del timeline, para una carga inicial le enviamos un parametro booleano para cargar o resetear los nodos.
-function loadNetworkById(bool, id) {
+function loadNetworkById(bool, id, nodes) {
+	// Los nodes seran enviados en la peticion al bkn para que me regrese los nodos agregados o eliminados según sea la peticion
+	var objectData = {
+		id: id,
+		nodes: nodes===undefined? '':nodes
+	}
+	console.log('objectData');
+	console.log(objectData);
 	// Simulamos el consumo del servicio, obtenemos la data de la network.
 	var response = catchFakeData(id)
-	bool ? startNetwork(response):resetAllNodes(response)
+	bool ? (
+		startNetwork(response),
+		actual_node = id
+	):resetAllNodes(response)
 }
 
 // Obtenemos la "data", aqui deberiamos tener nuestro servicio.
@@ -122,15 +159,23 @@ function catchFakeData(id) {
 
 // Funcion para dibujar la network con los nodos y ejes
 function startNetwork (data) {
-	options = {
+	options = {	  
 		physics:{
-			enabled: true
+			enabled: true,
+			repulsion: {
+				centralGravity: 0.2,
+				springLength: 1,
+				springConstant: 0.05,
+				nodeDistance: 10,
+				damping: 0.03
+			},
+		  
 		},	
 		nodes: {
 			shape: 'dot',
 			borderWidth: 1,
 			font: {
-				color: '#FFFFFF'
+				color: '#545454'
 			}
 		},
 		groups: {
@@ -155,10 +200,27 @@ function startNetwork (data) {
 
 // Reseteamos los nodos y agregamos los nuevos
 function resetAllNodes(data) {
-	nodes.clear();
+	// nodes.clear();0
+	// Evaluamos si existe para eliminar nodos del la network
+	if(data.deleteNodes){
+		networkDeleteNodes(data.deleteNodes);
+	}
 	edges.clear();
-	nodes.add(data.nodes);
+	nodes.update(data.nodes);
 	edges.add(data.edges);	
+	
+}
+
+function networkDeleteNodes(data) {
+	console.log(data);
+	data.map( function (x) {
+		try {
+			nodes.remove({id: x});
+		}
+		catch (err) {
+			alert(err);
+		}
+	})
 	
 }
 

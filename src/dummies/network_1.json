@@ -51,7 +51,8 @@
         "edges": [
             {"from": 1, "to": 2},
             {"from": 2, "to": 3}
-        ]
+        ],
+        "deleteNodes": [4,5]
     },
     {
         "id": "2",
@@ -115,12 +116,28 @@
                     "border": "#38c02a"
                     }
                 }
+            },
+            {
+                "id": 5,
+                "value": 17,
+                "label": "APPLE",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
             }
         ],
         "edges": [
             {"from": 1, "to": 2},
             {"from": 2, "to": 3},
-            {"from": 3, "to": 4}
+            {"from": 3, "to": 4},
+            {"from": 4, "to": 5}
         ]
     },
     {
@@ -185,28 +202,13 @@
                     "border": "#38c02a"
                     }
                 }
-            },
-            {
-                "id": 5,
-                "value": 36,
-                "label": "CSS Tricks",
-                "title": "Twitter - Positivo",
-                "group": "twitter",
-                "color": {
-                    "background": "#38c02a",
-                    "border": "#38c02a",
-                    "highlight": {
-                    "background": "#38c02a",
-                    "border": "#38c02a"
-                    }
-                }
             }
         ],
         "edges": [
             {"from": 1, "to": 2},
             {"from": 2, "to": 3},
-            {"from": 3, "to": 4},
-            {"from": 4, "to": 5}
-        ]
+            {"from": 3, "to": 4}
+        ],
+        "deleteNodes": [5]
     }
 ]
