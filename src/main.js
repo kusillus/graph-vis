@@ -5,6 +5,7 @@ const network_data = require('./dummies/network_1.json');
 // const data1 = require('./dummies/dummies_1.json'); // data de los nodos
 const timeline_data = require('./dummies/timeline.json'); //Data del timeline
 const post_data = require('./dummies/post_data.json');
+const timeline_new_points = require('./dummies/timeline_new_points.json');
 var infoNode = `<div class="info_node bg-light" style="top:{axis_x}px;left:{axis_y}px;">
 	<div class="d-flex justify-content-between">
 		<div class="info_user">
@@ -88,7 +89,7 @@ function initialLoad() {
 	var timeline_tag = document.getElementById('timeline');
 	timeline_options = {
 		zoomMax: 100000000000,
-		zoomMin: 600000,
+		zoomMin: 900000,
 		showMinorLabels: true,
 		showTooltips: true,
 		stack: false
@@ -97,14 +98,25 @@ function initialLoad() {
 
 	// Para una carga inicial vamos a hacer que cargue la network tomando el ultimo elemento de la data data que me mandan
 	loadNetworkById(true, timeline_data[timeline_data.length - 1].id)
+}
 
-	timeline.on('click', function (properties) {
-		cleanView();
-		if(properties.item){
-			evalNewTimelinePoint(properties.item);
-			
-		} 
+timeline.on('click', function (properties) {
+	cleanView();
+	if(properties.item){
+		evalNewTimelinePoint(properties.item);
+		
+	} 
+});
+
+function addNewItemTimeline(id){
+	var nodesInScreen = handleActualNodesInScreen();
+	timeline.itemsData.getDataSet().add(timeline_new_points[id]);
+	// timeline.focus(timeline_new_points[id].id);
+	// timeline.fit(timeline_new_points[id].id);
+	timeline.setSelection(timeline_new_points[id].id, {
+		focus: true
 	});
+	loadNetworkById(false, timeline_new_points[id].id, nodesInScreen);
 }
 
 // Evaluamos si el punto es mayor o menor al actual para agregar o quitar nodos
@@ -137,10 +149,11 @@ function loadNetworkById(bool, id, nodes) {
 		id: id,
 		nodes: nodes===undefined? '':nodes
 	}
-	console.log('objectData');
+	console.log('Response data');
 	console.log(objectData);
 	// Simulamos el consumo del servicio, obtenemos la data de la network.
-	var response = catchFakeData(id)
+	var response = catchFakeData(id);
+	console.log(response);
 	bool ? (
 		startNetwork(response),
 		actual_node = id
@@ -238,7 +251,7 @@ network.on("click", function (params) {
 	if(id) {
 		var new_infoNode =  findDataNode(id, axis);
 		if(new_infoNode) {
-			var target = document.querySelector('#container_body');
+			var target = document.querySelector('#eventSpan');
 			// pintamos el popup en pantalla
 			var div = document.createElement('div');
 			div.setAttribute('id', 'idPanel');
@@ -280,9 +293,19 @@ function findDataNode(id, axis) {
 			new_infoNode =  new_infoNode.replace(/{post_position}/g, item.from);
 			new_infoNode =  new_infoNode.replace(/{user_account_link}/g, item.userlink);
 			new_infoNode =  new_infoNode.replace(/{user_post_link}/g, item.postlink);
-			new_infoNode =  new_infoNode.replace(/{axis_x}/g, pointX);
-			new_infoNode =  new_infoNode.replace(/{axis_y}/g, axis.y);
+			// new_infoNode =  new_infoNode.replace(/{axis_x}/g, pointX);
+			// new_infoNode =  new_infoNode.replace(/{axis_y}/g, axis.y);
 		} 
 	})
 	return new_infoNode;
 }
+
+function testSetNewItemsTimelineInTime(i){
+	if(i < 6) {
+		setTimeout(function(){
+			addNewItemTimeline(i)
+			testSetNewItemsTimelineInTime(i = i + 1)
+		}, 1000);
+	}
+}
+testSetNewItemsTimelineInTime(0);

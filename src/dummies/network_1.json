@@ -46,20 +46,36 @@
                     "border": "#38c02a"
                     }
                 }
+            },
+            {
+                "id": 4,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
             }
         ],
         "edges": [
             {"from": 1, "to": 2},
-            {"from": 2, "to": 3}
+            {"from": 2, "to": 3},
+            {"from": 2, "to": 4}
         ],
-        "deleteNodes": [4,5]
+        "deleteNodes": [5,6,7,8,9,10,11,12]
     },
     {
         "id": "2",
         "nodes": [
             {
                 "id": 1,
-                "value": 4,
+                "value": 6,
                 "label": "ASUS",
                 "title": "ASUS",
                 "group": "twitter",
@@ -104,8 +120,8 @@
             },
             {
                 "id": 4,
-                "value": 17,
-                "label": "MACRO",
+                "value": 15,
+                "label": "HP",
                 "title": "Twitter - Positivo",
                 "group": "twitter",
                 "color": {
@@ -119,8 +135,53 @@
             },
             {
                 "id": 5,
-                "value": 17,
-                "label": "APPLE",
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 6,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 7,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 8,
+                "value": 15,
+                "label": "HP",
                 "title": "Twitter - Positivo",
                 "group": "twitter",
                 "color": {
@@ -136,16 +197,21 @@
         "edges": [
             {"from": 1, "to": 2},
             {"from": 2, "to": 3},
+            {"from": 2, "to": 4},
+            {"from": 2, "to": 5},
             {"from": 3, "to": 4},
-            {"from": 4, "to": 5}
-        ]
+            {"from": 3, "to": 6},
+            {"from": 3, "to": 7},
+            {"from": 3, "to": 8}
+        ],
+        "deleteNodes": [9,10,11,12]
     },
     {
         "id": "3",
         "nodes": [
             {
                 "id": 1,
-                "value": 28,
+                "value": 6,
                 "label": "ASUS",
                 "title": "ASUS",
                 "group": "twitter",
@@ -160,7 +226,7 @@
             },
             {
                 "id": 2,
-                "value": 29,
+                "value": 10,
                 "label": "Lenovo",
                 "title": "Twitter - Positivo",
                 "group": "facebook",
@@ -175,7 +241,7 @@
             },
             {
                 "id": 3,
-                "value": 30,
+                "value": 15,
                 "label": "HP",
                 "title": "Twitter - Positivo",
                 "group": "twitter",
@@ -190,8 +256,98 @@
             },
             {
                 "id": 4,
-                "value": 33,
-                "label": "MACRO",
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 5,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 6,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 7,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 8,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 9,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 10,
+                "value": 15,
+                "label": "HP",
                 "title": "Twitter - Positivo",
                 "group": "twitter",
                 "color": {
@@ -207,8 +363,1009 @@
         "edges": [
             {"from": 1, "to": 2},
             {"from": 2, "to": 3},
-            {"from": 3, "to": 4}
+            {"from": 2, "to": 4},
+            {"from": 2, "to": 5},
+            {"from": 3, "to": 4},
+            {"from": 3, "to": 6},
+            {"from": 4, "to": 7},
+            {"from": 5, "to": 8},
+            {"from": 8, "to": 9},
+            {"from": 9, "to": 10}
         ],
-        "deleteNodes": [5]
+        "deleteNodes": [11,12]
+    },
+    {
+        "id": "4",
+        "nodes": [
+            {
+                "id": 1,
+                "value": 6,
+                "label": "ASUS",
+                "title": "ASUS",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": {
+                    "background": "#008ae4",
+                    "border": "#008ae4"
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "value": 10,
+                "label": "Lenovo",
+                "title": "Twitter - Positivo",
+                "group": "facebook",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 3,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 4,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 5,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 6,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 7,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 8,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 9,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 10,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 11,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            }
+        ],
+        "edges": [
+            {"from": 1, "to": 2},
+            {"from": 2, "to": 3},
+            {"from": 2, "to": 4},
+            {"from": 2, "to": 5},
+            {"from": 3, "to": 4},
+            {"from": 3, "to": 6},
+            {"from": 4, "to": 7},
+            {"from": 5, "to": 8},
+            {"from": 6, "to": 4},
+            {"from": 7, "to": 8},
+            {"from": 8, "to": 9},
+            {"from": 8, "to": 10},
+            {"from": 8, "to": 11}
+        ],
+        "deleteNodes": [12]
+    },
+    {
+        "id": "5",
+        "nodes": [
+            {
+                "id": 1,
+                "value": 6,
+                "label": "ASUS",
+                "title": "ASUS",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": {
+                    "background": "#008ae4",
+                    "border": "#008ae4"
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "value": 10,
+                "label": "Lenovo",
+                "title": "Twitter - Positivo",
+                "group": "facebook",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 3,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 4,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 5,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 6,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 7,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 8,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 9,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 10,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 11,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 12,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            }
+        ],
+        "edges": [
+            {"from": 1, "to": 2},
+            {"from": 2, "to": 3},
+            {"from": 2, "to": 4},
+            {"from": 2, "to": 5},
+            {"from": 3, "to": 4},
+            {"from": 3, "to": 6},
+            {"from": 4, "to": 7},
+            {"from": 5, "to": 8},
+            {"from": 6, "to": 4},
+            {"from": 7, "to": 8},
+            {"from": 8, "to": 9},
+            {"from": 8, "to": 10},
+            {"from": 8, "to": 11},
+            {"from": 11, "to": 12}
+        ],
+        "deleteNodes": [13]
+    },
+    {
+        "id": "6",
+        "nodes": [
+            {
+                "id": 1,
+                "value": 6,
+                "label": "ASUS",
+                "title": "ASUS",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": {
+                    "background": "#008ae4",
+                    "border": "#008ae4"
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "value": 10,
+                "label": "Lenovo",
+                "title": "Twitter - Positivo",
+                "group": "facebook",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 3,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 4,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 5,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 6,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 7,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 8,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 9,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 10,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 11,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 12,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            }
+        ],
+        "edges": [
+            {"from": 1, "to": 2},
+            {"from": 2, "to": 3},
+            {"from": 2, "to": 4},
+            {"from": 2, "to": 5},
+            {"from": 3, "to": 4},
+            {"from": 3, "to": 6},
+            {"from": 4, "to": 7},
+            {"from": 5, "to": 8},
+            {"from": 6, "to": 4},
+            {"from": 7, "to": 8},
+            {"from": 8, "to": 9},
+            {"from": 8, "to": 10},
+            {"from": 8, "to": 11},
+            {"from": 11, "to": 12}
+        ],
+        "deleteNodes": [13]
+    },
+    {
+        "id": "7",
+        "nodes": [
+            {
+                "id": 1,
+                "value": 8,
+                "label": "ASUS",
+                "title": "ASUS",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": {
+                    "background": "#008ae4",
+                    "border": "#008ae4"
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "value": 10,
+                "label": "Lenovo",
+                "title": "Twitter - Positivo",
+                "group": "facebook",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 3,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 4,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 5,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 6,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 7,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 8,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 9,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 10,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 11,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 12,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            }
+        ],
+        "edges": [
+            {"from": 1, "to": 2},
+            {"from": 2, "to": 3},
+            {"from": 2, "to": 4},
+            {"from": 2, "to": 5},
+            {"from": 3, "to": 4},
+            {"from": 3, "to": 6},
+            {"from": 4, "to": 7},
+            {"from": 5, "to": 8},
+            {"from": 6, "to": 4},
+            {"from": 7, "to": 8},
+            {"from": 8, "to": 9},
+            {"from": 8, "to": 10},
+            {"from": 8, "to": 11},
+            {"from": 11, "to": 12}
+        ],
+        "deleteNodes": [13]
+    },
+    {
+        "id": "8",
+        "nodes": [
+            {
+                "id": 1,
+                "value": 12,
+                "label": "ASUS",
+                "title": "ASUS",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": {
+                    "background": "#008ae4",
+                    "border": "#008ae4"
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "value": 12,
+                "label": "Lenovo",
+                "title": "Twitter - Positivo",
+                "group": "facebook",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 3,
+                "value": 14,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 4,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 5,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 6,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 7,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 8,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 9,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 10,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 11,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            },
+            {
+                "id": 12,
+                "value": 15,
+                "label": "HP",
+                "title": "Twitter - Positivo",
+                "group": "twitter",
+                "color": {
+                    "background": "#38c02a",
+                    "border": "#38c02a",
+                    "highlight": {
+                    "background": "#38c02a",
+                    "border": "#38c02a"
+                    }
+                }
+            }
+        ],
+        "edges": [
+            {"from": 1, "to": 2},
+            {"from": 2, "to": 3},
+            {"from": 2, "to": 4},
+            {"from": 2, "to": 5},
+            {"from": 3, "to": 4},
+            {"from": 3, "to": 6},
+            {"from": 4, "to": 7},
+            {"from": 5, "to": 8},
+            {"from": 6, "to": 4},
+            {"from": 7, "to": 8},
+            {"from": 8, "to": 9},
+            {"from": 8, "to": 10},
+            {"from": 8, "to": 11},
+            {"from": 11, "to": 12}
+        ],
+        "deleteNodes": [13]
     }
 ]

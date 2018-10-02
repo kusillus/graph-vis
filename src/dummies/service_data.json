@@ -1,0 +1,2064 @@
+{
+    "dates": [
+        {
+            "id": 1538442000,
+            "start": "2018-10-02T01:00:00Z"
+        },
+        {
+            "id": 1538445600,
+            "start": "2018-10-02T02:00:00Z"
+        },
+        {
+            "id": 1538449200,
+            "start": "2018-10-02T03:00:00Z"
+        },
+        {
+            "id": 1538452800,
+            "start": "2018-10-02T04:00:00Z"
+        },
+        {
+            "id": 1538456400,
+            "start": "2018-10-02T05:00:00Z"
+        },
+        {
+            "id": 1538460000,
+            "start": "2018-10-02T06:00:00Z"
+        },
+        {
+            "id": 1538463600,
+            "start": "2018-10-02T07:00:00Z"
+        }
+    ],
+    "nodes": {
+        "1538442000": [
+            {
+                "id": 0,
+                "value": 56,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 1,
+                "value": 28,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 2,
+                "value": 30,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 3,
+                "value": 20,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 4,
+                "value": 24,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 6,
+                "value": 54,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 7,
+                "value": 98,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 8,
+                "value": 82,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 9,
+                "value": 127,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 10,
+                "value": 190,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 11,
+                "value": 158,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 12,
+                "value": 151,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 13,
+                "value": 90,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 14,
+                "value": 105,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 15,
+                "value": 127,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 16,
+                "value": 119,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 17,
+                "value": 104,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 18,
+                "value": 152,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 19,
+                "value": 113,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 20,
+                "value": 114,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 21,
+                "value": 70,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 22,
+                "value": 70,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 23,
+                "value": 43,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 5,
+                "value": 41,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            }
+        ],
+        "1538445600": [
+            {
+                "id": 0,
+                "value": 54,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 1,
+                "value": 38,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 2,
+                "value": 41,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 3,
+                "value": 32,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 5,
+                "value": 43,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 6,
+                "value": 74,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 7,
+                "value": 65,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 8,
+                "value": 214,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 9,
+                "value": 302,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 10,
+                "value": 180,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 11,
+                "value": 167,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 12,
+                "value": 185,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 13,
+                "value": 141,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 14,
+                "value": 130,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 15,
+                "value": 126,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 16,
+                "value": 100,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 17,
+                "value": 81,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 18,
+                "value": 80,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 19,
+                "value": 89,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 20,
+                "value": 68,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 21,
+                "value": 38,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 22,
+                "value": 33,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 23,
+                "value": 29,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 4,
+                "value": 31,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            }
+        ],
+        "1538449200": [
+            {
+                "id": 0,
+                "value": 54,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 1,
+                "value": 18,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 2,
+                "value": 21,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 3,
+                "value": 20,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 5,
+                "value": 43,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 6,
+                "value": 38,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 7,
+                "value": 48,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 8,
+                "value": 85,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 9,
+                "value": 172,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 10,
+                "value": 128,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 11,
+                "value": 147,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 12,
+                "value": 127,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 13,
+                "value": 139,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 14,
+                "value": 113,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 15,
+                "value": 103,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 16,
+                "value": 104,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 17,
+                "value": 121,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 18,
+                "value": 118,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 19,
+                "value": 62,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 20,
+                "value": 45,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 21,
+                "value": 60,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 22,
+                "value": 56,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 23,
+                "value": 25,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 4,
+                "value": 39,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            }
+        ],
+        "1538452800": [
+            {
+                "id": 0,
+                "value": 46,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 4,
+                "value": 26,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 5,
+                "value": 49,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 6,
+                "value": 46,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 8,
+                "value": 177,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 9,
+                "value": 161,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 10,
+                "value": 179,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 11,
+                "value": 177,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 12,
+                "value": 145,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 13,
+                "value": 107,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 14,
+                "value": 141,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 15,
+                "value": 119,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 16,
+                "value": 186,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 17,
+                "value": 128,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 18,
+                "value": 133,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 19,
+                "value": 117,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 20,
+                "value": 124,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 21,
+                "value": 202,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 22,
+                "value": 95,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 23,
+                "value": 61,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 1,
+                "value": 30,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 2,
+                "value": 38,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 3,
+                "value": 15,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 7,
+                "value": 99,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            }
+        ],
+        "1538456400": [
+            {
+                "id": 0,
+                "value": 77,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 1,
+                "value": 38,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 2,
+                "value": 39,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 3,
+                "value": 54,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 4,
+                "value": 22,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 5,
+                "value": 67,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 6,
+                "value": 60,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 7,
+                "value": 121,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 8,
+                "value": 102,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 9,
+                "value": 135,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 10,
+                "value": 140,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 11,
+                "value": 188,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 12,
+                "value": 118,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 13,
+                "value": 142,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 14,
+                "value": 142,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 15,
+                "value": 109,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 16,
+                "value": 140,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 17,
+                "value": 124,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 18,
+                "value": 160,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 19,
+                "value": 96,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 20,
+                "value": 94,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 21,
+                "value": 64,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 22,
+                "value": 49,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 23,
+                "value": 76,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            }
+        ],
+        "1538460000": [
+            {
+                "id": 0,
+                "value": 69,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 1,
+                "value": 39,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 2,
+                "value": 30,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 3,
+                "value": 30,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 4,
+                "value": 20,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 6,
+                "value": 42,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 7,
+                "value": 58,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 8,
+                "value": 54,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 9,
+                "value": 83,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 10,
+                "value": 95,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 11,
+                "value": 93,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 12,
+                "value": 75,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 13,
+                "value": 82,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 14,
+                "value": 121,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 15,
+                "value": 77,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 16,
+                "value": 101,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 17,
+                "value": 79,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 18,
+                "value": 74,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 19,
+                "value": 68,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 20,
+                "value": 89,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 21,
+                "value": 354,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 23,
+                "value": 113,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 5,
+                "value": 47,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 22,
+                "value": 336,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            }
+        ],
+        "1538463600": [
+            {
+                "id": 0,
+                "value": 93,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 3,
+                "value": 45,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 5,
+                "value": 40,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 8,
+                "value": 100,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 9,
+                "value": 273,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 10,
+                "value": 142,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 11,
+                "value": 102,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 12,
+                "value": 83,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 13,
+                "value": 55,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 14,
+                "value": 50,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 15,
+                "value": 57,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 16,
+                "value": 78,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 17,
+                "value": 65,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 18,
+                "value": 59,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 19,
+                "value": 70,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 21,
+                "value": 44,
+                "label": "Asus",
+                "title": "Asus",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 22,
+                "value": 36,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 23,
+                "value": 42,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 1,
+                "value": 24,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 2,
+                "value": 34,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 4,
+                "value": 26,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 6,
+                "value": 36,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 7,
+                "value": 42,
+                "label": "Lenovo",
+                "title": "Lenovo",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            },
+            {
+                "id": 20,
+                "value": 61,
+                "label": "HP",
+                "title": "HP",
+                "group": "twitter",
+                "color": {
+                    "background": "#008ae4",
+                    "border": "#008ae4",
+                    "highlight": "{'background': '#008ae4','border': '#008ae4'}"
+                }
+            }
+        ]
+    }
+}

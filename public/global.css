@@ -28,8 +28,8 @@ body {
   max-width: 390px;
   background: red;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 5px;
+  left: 5px;
   padding: 9px;
   border-radius: 4px;
   z-index: 99;
@@ -105,7 +105,7 @@ body {
 .vis-item.vis-box {
   border-radius: 2px;
   top: 9px !important;
-  transition: all .5s cubic-bezier(.65,.05,.36,1);
+  transition: all .2s cubic-bezier(.65,.05,.36,1);
   height: 12px;
 }
 .vis-timeline{
