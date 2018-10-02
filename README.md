@@ -1,4 +1,4 @@
-##Vis.js network timeline demo
+## Vis.js network timeline demo
 
 ![Imgur](https://i.imgur.com/x4vomF3.gif)
 
